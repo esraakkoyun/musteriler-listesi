@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b0b8c1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; /* esnek özellik */
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.divMusteri {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.divMusteri h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.musteriUl {
+    list-style: none;
+    padding: 0;
+}
+
+.musterili {
+    background-color: #e9ecef;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+   cursor: pointer; /*yazıya gelince el fare yerine el simgesi gelir */
+}
+
+.musterili:hover {
+    background-color: #dee2e6;
+}
+
+.kullanıcıUl {
+    list-style: none;
+    padding: 10px 0 0 20px;
+    margin: 10px 0;
+    
+}
+
+.kullanıcıLi {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+.kullanıcıLi:hover {
+    background-color: #e2e6ea;
+}
+
+.kullanıcıdetayUl {
+    list-style: none;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #ffffff;
+   
+}
+
+.kullanıcıdetayUl li {
+    margin: 5px 0;
+}
+
+.kullanıcıdetayUl a {
+    color: #007bff;
+}
+
+.kullanıcıdetayUl a:hover {
+    text-decoration: underline;
+}
